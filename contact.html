@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="index.html"
+            ><img src="images/logo.png" alt="ヘッダーのロゴ"
+          /></a>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a class="header-text" href="vision.html">VISION</a></li>
+          </ul>
+          <ul>
+            <li><a class="header-text" href="works.html">WORKS</a></li>
+          </ul>
+          <ul>
+            <li><a class="header-text" href="about.html">ABOUT US</a></li>
+          </ul>
+          <ul>
+            <li><a class="header-text" href="info.html">INFORMATION</a></li>
+          </ul>
+          <ul>
+            <li><a class="header-text" href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <section class="contact-section">
+        <h1 class="contact-section__heading">CONTACT</h1>
+        <p class="contact-section__text">
+          Hareteへのお問い合わせは下記のフォームをご記入し、内容を確認の上、送信ボタンを押してください。
+        </p>
+        <form action="">
+          <label for="name">名前/Name</label><br />
+          <input class="form-text" id="name" type="text" />
+          <label for="company">会社名/CO.name</label><br />
+          <input class="form-text" id="company" type="text" />
+          <label for="email">メール/E-mail</label><br />
+          <input class="form-text" id="email" type="email" />
+          <label for="address">住所/Adress</label><br />
+          <input class="form-text" id="address" type="text" />
+          <label for="content">お問い合わせ内容</label><br />
+          <textarea id="content"></textarea>
+          <input class="btn" type="submit" value="送信する" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>

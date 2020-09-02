@@ -1,0 +1,46 @@
+.contact-section {
+  margin-bottom: 50px;
+  &__heading {
+    font-size: 2.3rem;
+    margin-bottom: 43px;
+  }
+  &__text {
+    margin-bottom: 43px;
+    font-size: 1.3rem;
+  }
+  label {
+    font-size: 1.3rem;
+  }
+  .form-text {
+    display: block;
+    border: 1px solid #707070;
+    width: 450px;
+    height: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    @media screen and (max-width: 909px) {
+      width: 100%;
+    }
+  }
+  textarea {
+    border: 1px solid #707070;
+    width: 450px;
+    height: 200px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    @media screen and (max-width: 909px) {
+      width: 100%;
+    }
+  }
+  .btn {
+    padding: 18px 83px;
+    font-size: 1.7rem;
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 6px;
+    @media screen and (max-width: 909px) {
+      padding: 11px 45px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.main-visual {
+  img {
+    display: block;
+    width: 100%;
+    @media screen and (max-width: 909px) {
+      min-height: 80vh;
+      object-fit: cover;
+    }
+  }
+}

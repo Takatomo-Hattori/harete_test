@@ -1,0 +1,27 @@
+.works-section {
+  display: flex;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 909px) {
+    display: block;
+  }
+  &__item {
+    flex-basis: 300px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    @media screen and (max-width: 909px) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      transition: all 1s;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
